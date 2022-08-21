@@ -45,7 +45,7 @@ function App1() {
       
       <div className="login-form">
         <div className="title"><t></t>CARMEL<t></t><br></br>POLYTECHNIC
-        <div className="loginval"><t>FACULTY LOGIN</t></div></div>
+       </div>
         {renderForm}
       </div>
     </div>
