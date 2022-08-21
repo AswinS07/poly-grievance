@@ -1,4 +1,4 @@
-.app {
+.app1 {
     font-family: sans-serif;
     display: flex;
     align-items: center;
@@ -18,12 +18,14 @@
   input[type="password"] {
     height: 25px;
     border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    size: 10px;
+    padding: auto;
   }
-  
   
   .LOGIN {
     border: none;
-    background-color: rgb(5, 117, 5);
+    background-color: rgb(7, 5, 133);
     padding: 1rem 3rem 1rem 3rem;
     font-size: 23px;
     cursor: pointer;
@@ -34,7 +36,7 @@
   }
   
   /* On mouse-over */
-  .LOGIN:hover {background: rgb(1, 95, 1);}
+  .LOGIN:hover {background: rgb(7, 5, 133);}
   
   
   .button-container {
@@ -77,10 +79,11 @@
     text-align: center;
     font-size: 30px;
     padding-top: 5rem;
-    padding-bottom: 2rem;
     padding-left: 4rem;
     padding-right: 4rem;
-    margin-bottom: 30px;
-    
   }
-  
+  .loginval {
+    text-align: center;
+    font-size: 24px;
+    padding-top: 1rem;
+  }

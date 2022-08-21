@@ -1,0 +1,90 @@
+.app {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 70rem;
+
+    gap: 20px;
+    height: 100vh;
+    font-family: "Zilla Slab",serif;
+    background-image: url("F:/projectpoly/polyproject/src/assets/back1.png");
+    background-attachment: fixed;
+    background-size:cover;
+  }
+  
+
+  
+  .ALOGIN {
+    border: none;
+    background-color: rgb(5, 117, 5);
+    padding: 1rem 3rem 1rem 3rem;
+    font-size: 23px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Zilla Slab',serif;
+    border-radius: 20px;
+    color: #fff;
+    align-self: center;
+    text-align: center;
+
+  }
+  
+
+  .ALOGIN:hover {background: rgb(5, 117, 6);}
+
+  .FLOGIN {
+    border: none;
+    background-color: rgb(85, 3, 8);
+    padding: 1rem 3rem 1rem 3rem;
+    font-size: 23px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Zilla Slab',serif;
+    border-radius: 20px;
+    color: #fff;
+    align-self: center;
+    text-align: center;
+
+    
+  }
+  .faculty {
+    align-self: center;
+  }
+
+  .FLOGIN:hover {background: rgb(85, 3, 8);}
+
+  .SLOGIN {
+    border: none;
+    background-color: rgb(7, 5, 133);
+    padding: 1rem 3rem 1rem 3rem;
+    font-size: 23px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Zilla Slab',serif;
+    border-radius: 20px;
+    color: #fff;
+    align-self: stretch;
+    text-align: center;
+
+  }
+.student {
+    padding-bottom: 4rem;
+    align-self: center;
+}  
+
+  .SLOGIN:hover {background: rgb(7, 5, 133);}
+
+  .title {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+.form1 {
+    align-items: center;
+}
+  
