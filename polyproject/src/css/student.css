@@ -18,22 +18,13 @@
   input[type="password"] {
     height: 25px;
     border: 1px solid rgba(0, 0, 0, 0.2);
-  }
-  
-  input[type="submit"] {
-    margin-top: 10px;
-    cursor: pointer;
-    font-size: 20px;
-    background: #036d1a;
-    border: 1px solid #008f18;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 10px;
+    border-radius: 5px;
+    
   }
   
   .LOGIN {
     border: none;
-    background-color: rgb(5, 117, 5);
+    background-color: rgb(7, 5, 133);
     padding: 1rem 3rem 1rem 3rem;
     font-size: 23px;
     cursor: pointer;
@@ -87,10 +78,11 @@
     text-align: center;
     font-size: 30px;
     padding-top: 5rem;
-    padding-bottom: 2rem;
     padding-left: 4rem;
     padding-right: 4rem;
-    margin-bottom: 30px;
-    
   }
-  
+  .loginval {
+    text-align: center;
+    font-size: 24px;
+    padding-top: 1rem;
+  }
