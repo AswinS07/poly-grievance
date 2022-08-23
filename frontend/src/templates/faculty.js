@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
 
-import "F:/projectpoly/polyproject/src/css/front.css";
+import "../css/front.css";
 
-function App() {
+function App1() {
 
     
   // React States
@@ -43,7 +43,7 @@ function App() {
       
       <div className="login-form">
         <div className="title"><t></t>CARMEL<t></t><br></br>POLYTECHNIC
-        <div className="loginval"><t>STUDENT LOGIN</t></div></div>
+        <div className="loginval"><t>FACULTY LOGIN</t></div></div>
         {isSubmitted ? <div>User is successfully logged in</div> : renderForm}
       </div>
     </div>
@@ -51,4 +51,4 @@ function App() {
 }
 
     
-export default App;
+export default App1;

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
 
-import "F:/projectpoly/polyproject/src/css/front.css";
+import "../css/front.css";
 
 function App1() {
     const [width, setWindowWidth] = useState(0);
